@@ -3,8 +3,8 @@
 <html>
 <head>
   <title>CGPU++</title>
-	<link rel="shortcut icon" href="https://www.cet.ac.in/wp-content/uploads/2018/09/cropped-CET-Emblom-transparent-2-e1536389478507.png">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="https://www.cet.ac.in/wp-content/uploads/2018/09/cropped-CET-Emblom-transparent-2-e1536389478507.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="cgpu++.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,14 +19,21 @@
     <a href="#contact">Contact</a>
   </div>
 </div>
-<div class="topnav">
-  <a class="active" href="cgpu++.html">Home</a>
-  <a href="#About">About</a>
-  <a href="#contact">Recruiter</a>
-  <a href="#about">Placement </a>
-  <a href="login.html">Login </a>
 
-</div>
+
+<ul>
+  <li><a class="current" href="cgpu++.html">Home</a>
+  <li><a href="#news">About</a></li>
+  <li><a href="#news">Placement</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Recruiter</a>
+    <div class="dropdown-content">
+      <a href="login.html">Login</a>
+      <a href="registration.html" target="_blank">Register</a>
+    </div>
+  </li>
+</ul>
+
 
 <div class="slidercontainer">  
         
@@ -79,7 +86,10 @@
             slides[slide_index - 1].style.display = "block";  
         }  
 </script>   
-
-
+<div>
+  <footer class="footer">
+        <small>&copy; Copyright 2018-2022, Nikhil-Nived-Rahul-Reuben</small>
+  </footer>
+</div>
 </body>
 </html>
