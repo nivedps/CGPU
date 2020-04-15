@@ -91,7 +91,7 @@
 
 
 .login-page {
-  width: 440px;
+  width: relative;
   padding: 8% 0 0;
   margin: auto;
 }
